@@ -1,0 +1,1 @@
+In React Router Dom v6, when using the `useParams` hook inside a component nested within a route that uses the `Outlet` component, the `params` object returned by `useParams` might not be updated correctly when navigating between child routes. This results in the child component always rendering with the initial params, even when the URL changes.
